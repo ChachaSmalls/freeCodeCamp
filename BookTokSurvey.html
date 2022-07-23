@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booktok Survey</title>
+    <link rel="stylessheet" href="booktokstyle.css">
+  </head>
+  <body>
+    <h1 id="title">Booktok Survey</h1>
+    <p id="description">Thank you for taking the time to answer a few survey questions</p>
+    <form id="survey-form"/>
+    <fieldset>
+    <div><label id="name-label"> Name: <input type="text" id="name" required placeholder="Enter your name" class="inline" /></label></div>
+    <div><label id="email-label"> Email: <input type="email" id="email" placeholder="Enter your email address" class="inline" required/></label></div>
+    <div><label id="number-label"> Age: <input type="number" id="number" name="age" class="age" min="13" max="120" placeholder="optional" /></div>
+    </fieldset>
+    <fieldset>
+    <label> Which is your favorite format to read?
+      <select name="format" id="dropdown">
+        <option value="">(select one)</option>
+        <option value="1">Audio Books</option>
+        <option value="2">Ebooks</option>
+        <option value="3">Physical Book</option>
+        </select>
+       <div><label>Do you use your local library? </div>
+<input type="radio" name="library" id="local" value="yes"/>Yes</label>
+<input type="radio" name="library" id="local" value="no"/>No</label>
+</fieldset>
+<fieldset>
+  <div><label>Which are your favorite genres?</label></div>
+   <div><input type="checkbox" value="genre" name="genre" />Biography</div>
+   <div><input type="checkbox" value="genre" name="genre" />Comedy</div>
+   <div><input type="checkbox" value="genre" name="genre" />Contemporary</div>
+   <div><input type="checkbox" value="genre" name="genre" />Crime</div>
+   <div><input type="checkbox" value="genre" name="genre"/>Fantasy</div>
+   <div><input type="checkbox" value="genre" name="genre"/>Historical Fiction</Div>
+   <div><input type="checkbox" value="genre" name="genre"/>History</div>
+   <div><input type="checkbox" value="genre" name="genre"/>Mystery</div>
+   <div><input type="checkbox" value="genre" name="genre"/>Paranormal </div>
+   <div><input type="checkbox" value="genre" name="genre"/>Poetry </div>   
+   <div><input type="checkbox" value="genre" name="genre"/>Romance</div>
+   <div><input type="checkbox" value="genre" name="genre"/>Thriller</div>
+   <div><input type="checkbox" value="genre" name="genre"/>Young Adult</div>
+   <input type="checkbox" value="genre" name="genre"/>Other</div>
+   <div><textarea name="other" rows="3" cols="30" placeholder="list genres separated with a ','"> </textarea></div>
+</fieldset></body>
+   <input type="submit" value="Submit" id="submit"/>
+    </form>
+        </body>

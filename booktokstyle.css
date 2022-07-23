@@ -1,0 +1,33 @@
+#survey-form{
+    background-color: lavender
+    
+  }
+  body{
+    background-color: #3C9088;
+  }
+  h1, p{
+    text-align: center;
+    font-family: cambria;
+  }
+  input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: d4c4d7;
+    border-color: d4c4d7;
+    min-width: 300px;
+  }
+  form {
+    width: 60vw;
+      max-width: 500px;
+      min-width: 300px;
+      margin: 0 auto;
+    padding-bottom: 2em;
+    font-family: Cambria
+  }
+  fieldset:last-of-type {
+    margin: .4rem;   
+  }
+  
