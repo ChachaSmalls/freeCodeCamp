@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Technical Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main id="main-doc">
+
+      <section class="main-section" id="RomCom"><header>RomCom</header><p></p><p></p><code></code><li></li></section>
+      <section class="main-section" id="SNR"><header>SNR</header><p></p><p></p><code></code><li></li></section>
+      <section class="main-section" id="Dark"><header>Dark</header><p></p><p></p><code></code><li></li></section>
+      <section class="main-section" id="Taboo"><header>Taboo</header><p></p><p></p><code></code><li></li></section>
+      <section class="main-section" id="SyFy"><header>SyFY</header><p></p><p></p><code></code><li></li></section>
+
+      <nav id="navbar"><header>Romance Genres</header>
+      <a class="nav-link" href="#RomCom">RomCom</a>
+      <a class="nav-link" href="#SNR">SNR</a>
+      <a class="nav-link" href="#Dark">Dark</a>
+      <a class="nav-link" href="#Taboo">Taboo</a>
+      <a class="nav-link" href="#SyFy">SyFy</a>
+      </nav>
+
+    </main>
