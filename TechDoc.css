@@ -1,0 +1,11 @@
+a:hover { /* default hover effect */
+  color: black;
+  background: yellow;
+}
+
+@media (hover: hover) { /* when supported */
+  a:hover {
+    color: white;
+    background: black;
+  }
+}
